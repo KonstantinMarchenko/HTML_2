@@ -1,0 +1,255 @@
+.body-no-margin {
+    margin: 0px;
+}
+
+.image {
+    &_logo {
+        & img {
+            display: inline-block;
+            margin-top: 30px;
+            margin-left: 20px;
+            width: 120px;
+            height: 69px;
+            cursor: pointer;
+        }
+    }
+    &_search {
+        & img {
+            position: relative;
+            left: 100px;
+            top: -23px;
+            margin-left: 10px;
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+    &__mode {
+        & img {
+            display: inline-block;
+            position: relative;
+            left: 800px;
+            height: 16px;
+            width: 16px;
+            cursor: pointer;
+        }
+        &_active {
+            & img {
+                display: inline-block;
+                position: relative;
+                left: 800px;
+                height: 24px;
+                width: 24px;
+                cursor: pointer;
+            }      
+        }
+    }
+    &_block-image {
+        & img {
+            width: 180px;
+            height: 180px;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+    }
+    &_logo-image {
+        & img {
+            position: relative;
+            width: 43px;
+            height: 14px;
+            top: -150px;
+            cursor: pointer;
+        }
+    }
+    &_block-image-box {
+        & img {
+            display: block;
+            width: 220px;
+            height: 220px;
+            cursor: pointer;
+        }
+    }
+    &_logo-image-box {
+        & img {
+            width: 43px;
+            height: 14px;
+            cursor: pointer;
+        }
+    }
+}
+
+.header {
+    height: 180px;
+    border-bottom: 1px solid lightgrey;
+    &__logo {
+        height: 35px;
+        background-color: rgb(228, 227, 227);
+        &_text {
+            position: relative;
+            top: 5px;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: rgb(230, 78, 8);
+            cursor: pointer;
+        }
+    }
+    &__search {
+        display: inline-block;
+        position: relative;
+        top: -20px;
+        left: 100px;
+        height: 30px;
+        width: 500px;
+        border-radius: 3px;
+        border: 1px solid lightgrey;
+        cursor: text;
+        &_text {
+            position: relative;
+            top: -30px;
+            left: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+    &__tab {
+        &_text {
+            position: relative;
+            left: 50px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            cursor: pointer; 
+        }
+    }
+}
+
+.slide-menu {
+    position: absolute;
+    left: 50px;
+    top: 230px;
+    width: 150px;
+    height: 200px;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    &__text {
+        margin-top: 25px;
+        margin-left: 15px;
+        font-weight: 700;
+        text-align: left;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+}
+
+.result {
+    position: absolute;
+    left: 250px;
+    top: 230px;
+    width: 1200px;
+    height: 1000px;
+    &__quantity {
+        margin-top: 15px;
+        margin-left: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+    }
+}
+
+.result-block {
+    height: 180px;
+    width: 900px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    &:hover {
+        margin-top: 0px;
+        margin-left: 49px;
+        border: 1px solid lightgrey;
+    }
+    &__text-name {
+        position: relative;
+        display: block;
+        top: -170px;
+        left: 290px;
+        color: #036;
+        font-size: 14px;
+        width: 280px;
+        word-wrap: break-word;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+    &__text-price {
+        position: relative;
+        top: -205px;
+        left: 580px;
+        color: grey;
+        font-size: 14px;
+
+    }
+    &__text-link {
+        position: relative;
+        left: 75px;
+        top: -250px;
+        color: grey;
+        font-size: 14px;
+        &:hover {
+            text-decoration: underline;
+            color: orange;
+            cursor: pointer;
+        }
+    }
+}
+
+.result-block-box {
+    display: inline-block;
+    height: 360px;
+    margin-left: -4px;
+    width: 250px;
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+    &:hover {
+        margin-top: -1px;
+        border: 1px solid lightgrey;
+    }
+    &__text-name {
+        display: block;
+        text-align: left;
+        color: #036;
+        font-size: 14px;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+    &__text-price {
+        display: block;
+        text-align: center;
+        color: grey;
+        font-size: 14px;
+        margin-top: 10px;
+
+    }
+    &__text-link {
+        display: block;
+        text-align: center;
+        color: grey;
+        font-size: 14px;
+        margin-top: 10px;
+        &:hover {
+            text-decoration: underline;
+            color: orange;
+            cursor: pointer;
+        }
+    }
+}
